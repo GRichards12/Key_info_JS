@@ -1,0 +1,84 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding:0;
+    margin:0;
+}
+
+#pg1{
+display:block;}
+
+#pg2{
+display:none;
+}
+
+body {
+    width:100pc;
+}
+body div{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.main{
+    position:absolute;
+    left:30pc;
+    display:flex;
+    width:50pc;
+    top:0pc;
+    height: 20pc;
+    background-color: rgba(171, 218, 255, 0.584);
+    justify-content: space-between;
+    border-left-style: solid;
+    border-left-color: black;
+    border-left-width: 0.1pc;
+}
+
+.main ul{
+    list-style: none;
+    width:15pc;
+}
+
+.prev{
+    position:absolute;
+    left:30pc;
+    top:10pc;
+    width:50pc;
+    display:flex;
+    justify-content: space-between;
+}
+.prev ul{
+    list-style: none;
+    width:15pc;
+}
+.log{
+    position:fixed;
+    left:0;
+    top:0;
+    height:100pc;
+    width:20pc;
+}
+
+
+.log .title{
+    width:8pc;
+    height:1.25pc;
+    font-size:0.75pc;
+    border-left-style: solid;
+    border-left-width: 0.1pc;
+    border-left-color: rgba(119, 119, 119, 0.76);
+    color: black;
+    background-color: rgba(202, 202, 202, 0.584);
+    padding-left: 0.2pc;
+}
+
+
+.log ul{
+    list-style:none;
+    display:flex;
+    max-width:22pc;
+    flex-direction: column;
+    font-size: 0.5em;
+
+}
